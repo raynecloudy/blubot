@@ -13,7 +13,7 @@ module.exports = {
 		.setDescription("displays a fun fact about the colour blu"),
 	async execute(interaction) {
 		if (Math.random() >= 0.99) {
-			await interaction.reply({ content: "THE SKY IS BLUE :speaking_head::speaking_head::speaking_head::fire::fire:", files: [new AttachmentBuilder().setFile("https://breakfast.nekoweb.org/media/blubot-woah.png").setName("mfw-the-sky-is-blue.png")] });
+			await interaction.reply({ content: "THE SKY IS BLUE :speaking_head::speaking_head::speaking_head::fire::fire:", files: [new AttachmentBuilder().setFile("https://raynecloudy.nekoweb.org/media/blubot-woah.png").setName("mfw-the-sky-is-blue.png")] });
 		} else {
 			await interaction.reply(facts[Math.floor(Math.random() * facts.length)]);
 		}
